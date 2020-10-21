@@ -1,0 +1,109 @@
+body{
+	background-color: rgb(200,200,200);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	color: rgb(40, 40 ,40);
+	text-align: center;
+	line-height: 1,6px;
+}
+
+h1,h2{
+	color:white ;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+
+h1{
+	background-color:#6a2e35 ;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+h2{
+	background-color: #6a2e35;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+p{
+	margin-top: 25px
+}
+
+
+a{
+	text-decoration: none;
+	color: #6a2e35;
+	font-weight: bolder;
+}
+a:hover{
+	color: #1b3022;
+}
+
+
+.container{
+	width: 700px;
+	margin: 30px auto;
+}
+
+.card-white{
+	padding: 25px;
+    background: rgb(240,240,240);
+    margin: 35px 0px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+
+.img-circle{
+   border-radius: 50%;
+}
+
+.img-centered{
+	height: 130px;
+    width: 130px;
+    margin: 20px 40px;
+}
+
+.logo-center{
+	height: 100px;
+	margin: 0px 40px; 
+
+}
+
+#profile-picture{
+	width: 170px;
+    margin: 0px auto;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 30px;
+}
+
+.list-inline >li {
+	display: inline;
+	padding: 0px 20px;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
